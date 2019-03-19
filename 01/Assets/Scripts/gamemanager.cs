@@ -38,7 +38,7 @@ public class gamemanager : MonoBehaviour
     }
     public void paceBowl()
     {
-        rb.AddForce(new Vector3(Random.Range(600, 1000), Random.Range(80, 200), Random.Range(-50, 60)));
+        rb.AddForce(new Vector3(Random.Range(600, 700), Random.Range(80, 200), Random.Range(-50, 60)));
         
 
     }
